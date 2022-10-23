@@ -18,6 +18,9 @@ public class StaticTest {
      */
     public void function() {
         int[] c = new int[6];
+        //局部变量必须要赋初始值，但是成员变量可以不赋值，会有默认赋值
+//        int x = 0;
+//        System.out.println(x);
     }
     public static void main(String arg[]) {
         System.out.println(a[0]);
